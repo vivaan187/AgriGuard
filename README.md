@@ -1,11 +1,11 @@
-# Sample Snack app
+# AgriGuard app
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+An AI powered app used to mitigate agricultural disasters using the power of AI. It provides farmer's with helpful information on whatever they may choose to ask, using Google's powerful Gemini Pro GPT. Our app also integrates picture based analysis, with a crop disease identifier, and a soil type identifier using Gemini Vision for detailed analysis. The app also has a weather panel that shows accurate forecasting wherever a farmer may be around the world.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Our app uses a combination of advanced APIs to collect and analyze critical data:
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Weather Pattern Analysis: We are utilising the Weather API from OpenWeatherMap to monitor local weather patterns in real-time, helping predict potential natural disasters like droughts or floods.
+Crop Condition Analysis: For crop health monitoring, we’ve integrated the Gemini vision model, which detects diseases and pests by analyzing plant images.
+Soil type detection: Our application also allows for uploading pictures of the soil, which then utilizes Gemini vision to identify the type of the soil, for greater insight.
+AI-Powered Recommendations: Using Gemini pro, our app generates personalized recommendations for farmers, guiding them on how to protect and improve their crops based on the latest data.
+This data-driven approach ensures that farmers receive accurate, timely advice to manage their crops effectively.”
